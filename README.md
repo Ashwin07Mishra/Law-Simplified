@@ -122,6 +122,7 @@ Relevant Context Retrieval
         ▼
 AI Generated Response
 ```
+<img width="1024" height="559" alt="image" src="https://github.com/user-attachments/assets/99ff3ba7-3b19-4f65-bea2-c7568b1e8fb7" />
 
 ---
 
