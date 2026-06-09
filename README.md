@@ -140,18 +140,77 @@ The system extracts textual content using OCR and document parsing techniques.
 
 The extracted content is analyzed to identify important legal entities, obligations, dates, clauses, and other relevant information.
 
-### Step 4: Structured Insight Generation
+### Step 4: Structured LLM Schema
 
 The document is transformed into simplified summaries and structured outputs that are easier to understand than the original legal text.
 
-### Step 5: Knowledge Base Creation
+### Step 5: Vector Embedding 
 
 The processed document is converted into vector embeddings and stored within a temporary document-specific knowledge store.
 
-### Step 6: Conversational Interaction
+### Step 6: Interactive Interaction
 
 Users can ask questions regarding the uploaded document. Relevant sections are retrieved from the document knowledge base and used to generate context-aware responses.
 
+---
+### Document Type
+Employment Agreement
+
+### Parties Involved
+- ABC Technologies Pvt Ltd
+- John Doe
+
+### Important Dates
+- Employment Start Date: 01 January 2025
+- Notice Period: 90 Days
+
+### Key Obligations
+- Maintain confidentiality
+- Follow company policies
+- Avoid conflicts of interest
+
+### Important Clauses
+- Confidentiality Clause
+- Non-Compete Clause
+- Termination Clause
+
+### Simplified Summary
+This agreement outlines the employment relationship, compensation structure, employee responsibilities, confidentiality requirements, and termination conditions.
+Mentions : Do's:
+         : Do Not's:
+---
+
+
+## Sample Analysis Output
+
+```json
+{
+  "document_type": "Employment Agreement",
+  "parties": [
+    "ABC Technologies Pvt Ltd",
+    "John Doe"
+  ],
+  "effective_dates": {
+    "start_date": "01 January 2025",
+    "notice_period": "90 Days"
+  },
+  "payment_terms": "Monthly salary payable on the last working day of each month.",
+  "termination_or_expiry": "Agreement may be terminated with 90 days written notice.",
+  "key_obligations": [
+    "Maintain confidentiality",
+    "Follow company policies",
+    "Avoid conflicts of interest"
+  ],
+  "important_clauses": [
+    "Confidentiality Clause",
+    "Non-Compete Clause",
+    "Termination Clause"
+  ],
+  "simplified_summary": "This agreement defines employment terms, compensation, confidentiality obligations, and termination conditions."
+  Do's: Mention list of Important and must required tasks to be done by user 
+  Do Not's: Must not violate key obligations etc etc 
+}
+```
 ---
 
 ## Technology Stack
