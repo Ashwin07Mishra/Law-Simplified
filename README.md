@@ -1,5 +1,10 @@
 # Law Simplified
-
+![Python](https://img.shields.io/badge/Python-3.12-blue)
+![LLM](https://img.shields.io/badge/LLM-Powered-green)
+![RAG](https://img.shields.io/badge/RAG-Enabled-orange)
+![OCR](https://img.shields.io/badge/OCR-Multilingual-red)
+![Streamlit](https://img.shields.io/badge/Frontend-Streamlit-ff4b4b)
+![Status](https://img.shields.io/badge/Status-Completed-success)
 ## Overview
 
 Law Simplified is an AI-powered legal document intelligence platform designed to make complex legal documents easier to understand and interact with. The system enables users to upload legal documents such as contracts, agreements, notices, offer letters, policies, and other legal paperwork, automatically extracts and analyzes the content, and presents the information in a structured and user-friendly format.
